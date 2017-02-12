@@ -1,0 +1,71 @@
+" Environment
+    set nocompatible        " Must be first line
+    set background=dark     " Assume a dark background
+
+    filetype off
+    set rtp+=~/.vim/bundle/vundle
+    call vundle#rc()
+
+" Bundles
+    " deps
+    Bundle 'gmarik/vundle'
+    Bundle 'MarcWeber/vim-addon-mw-utils'
+    Bundle 'tomtom/tlib_vim'
+
+    " appearance
+    Bundle 'altercation/vim-colors-solarized'
+    Bundle 'vim-airline/vim-airline'
+    Bundle 'vim-airline/vim-airline-themes'
+    Bundle 'powerline/fonts'
+    Bundle 'luochen1990/rainbow'
+    Bundle 'bling/vim-bufferline'
+
+    " languages
+    Bundle 'sheerun/vim-polyglot'
+    Bundle 'scrooloose/syntastic'
+    Bundle 'tpope/vim-rails'
+    let g:rubycomplete_buffer_loading = 1
+    Bundle 'ap/vim-css-color'
+
+    " snippets & autoComplete
+    Bundle 'Shougo/neocomplete.vim.git'
+    Bundle 'Shougo/neosnippet'
+    Bundle 'Shougo/neosnippet-snippets'
+    Bundle 'honza/vim-snippets'
+
+    " programming
+    Bundle 'tpope/vim-fugitive'
+    Bundle 'airblade/vim-gitgutter'
+    Bundle 'tomtom/tcomment_vim.git'
+    Bundle 'editorconfig/editorconfig-vim'
+    Bundle 'godlygeek/tabular'
+    Bundle 'mattn/emmet-vim'
+    Bundle 'Raimondi/delimitMate'
+    Bundle 'heracek/HTML-AutoCloseTag'
+
+    " general
+    Bundle 'scrooloose/nerdtree'
+    Bundle 'jistr/vim-nerdtree-tabs'
+    Bundle 'tpope/vim-surround'
+    Bundle 'easymotion/vim-easymotion'
+    Bundle 'ctrlpvim/ctrlp.vim'
+    Bundle 'majutsushi/tagbar'
+    Bundle 'mileszs/ack.vim'
+    let g:ackprg = 'ag --nogroup --nocolor --column --smart-case'
+    Bundle 'tpope/vim-repeat'
+    Bundle 'gcmt/wildfire.vim'
+    Bundle 'mbbill/undotree'
+    Bundle 'vim-scripts/sessionman.vim'
+    Bundle 'matchit.zip'
+    Bundle 'osyo-manga/vim-over'
+
+    "Bundle 'terryma/vim-multiple-cursors'
+    "Bundle 'tpope/vim-abolish.git'
+    "Bundle 'kana/vim-textobj-user'
+    "Bundle 'kana/vim-textobj-indent'
+
+    "" General Programming
+    "Bundle 'mattn/webapi-vim'
+    "Bundle 'mattn/gist-vim'
+    "Bundle 'scrooloose/nerdcommenter'
+    "Bundle 'tpope/vim-commentary'
